@@ -204,8 +204,24 @@ public class SuperCalc extends javax.swing.JFrame {
         // TODO add your handling code here:
         //Feitos do professor
          panCalc.setVisible(true);
+        int num = Integer.parseInt(txtNum.getValue().toString());
+        //resto da divisão
+        int r = num % 2;
+        lblResto.setText(Integer.toString(r));
         
-
+        //Elevado ao Cubo
+        double c = Math.pow(num,3);
+        lblCubo.setText(Double.toString(c));
+        
+        //Raiz Quadrada
+        double rq = Math.sqrt(num);
+        lblRaizQ.setText(String.format("%.2f",rq)); // format para controlar casas decimais
+        
+        //Raiz Cubica
+        double rc = Math.cbrt(num);
+        lblRaizC.setText(String.format("%.2f",rc));// format para controlar casas decimais
+        
+        
         /*DecimalFormat deci = new DecimalFormat("0.00");
         int idvalor = Integer.parseInt(txtValor.getValue().toString());
         int div = idvalor % 2;
