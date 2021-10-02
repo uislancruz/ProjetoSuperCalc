@@ -168,6 +168,7 @@ public class SuperCalc extends javax.swing.JFrame {
 
     private void bntCalcActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bntCalcActionPerformed
         // TODO add your handling code here:
+        //Feitos do professor
         
         DecimalFormat deci = new DecimalFormat("0.00");
          int idvalor = Integer.parseInt(txtValor.getValue().toString());
