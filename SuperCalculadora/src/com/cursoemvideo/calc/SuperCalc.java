@@ -228,6 +228,8 @@ public class SuperCalc extends javax.swing.JFrame {
         int abs = Math.abs(num);
         lblAbs.setText(Integer.toString(abs));
         
+        
+        //Feitos por mim.
         /*DecimalFormat deci = new DecimalFormat("0.00");
         int idvalor = Integer.parseInt(txtValor.getValue().toString());
         int div = idvalor % 2;
