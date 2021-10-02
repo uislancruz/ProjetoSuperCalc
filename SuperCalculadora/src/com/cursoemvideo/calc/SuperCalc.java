@@ -222,6 +222,9 @@ public class SuperCalc extends javax.swing.JFrame {
         double rc = Math.cbrt(num);
         lblRaizC.setText(String.format("%.2f",rc));// format para controlar casas decimais
         
+        // Valor Absoluto
+        int abs = Math.abs(num);
+        lblAbs.setText(Integer.toString(abs));
         
         /*DecimalFormat deci = new DecimalFormat("0.00");
         int idvalor = Integer.parseInt(txtValor.getValue().toString());
