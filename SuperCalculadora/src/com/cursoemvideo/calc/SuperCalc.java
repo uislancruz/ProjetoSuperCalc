@@ -56,6 +56,8 @@ public class SuperCalc extends javax.swing.JFrame {
         jLabel2.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
         jLabel2.setText("Informe um valor:");
 
+        txtNum.setModel(new javax.swing.SpinnerNumberModel(1, -50, 50, 1));
+
         bntCalc.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
         bntCalc.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/cursoemvideo/calc/Imagens/Calc2.jpg"))); // NOI18N
         bntCalc.setText("Calcular");
