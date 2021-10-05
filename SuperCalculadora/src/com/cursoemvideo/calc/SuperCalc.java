@@ -18,7 +18,8 @@ public class SuperCalc extends javax.swing.JFrame {
      */
     public SuperCalc() { //Construtor
         initComponents();
-        panCalc.setVisible(false);
+        panCalc.setVisible(false); //deixando o painel invisivel, para aparecer só quando der ação no botão
+        
     }
 
     /**
@@ -206,7 +207,7 @@ public class SuperCalc extends javax.swing.JFrame {
     private void bntCalcActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bntCalcActionPerformed
         // TODO add your handling code here:
         //Feitos do professor
-         panCalc.setVisible(true);
+         panCalc.setVisible(true);//voltando o painel apos o click do botão
         int num = Integer.parseInt(txtNum.getValue().toString());
         //resto da divisão
         int r = num % 2;
