@@ -21,7 +21,10 @@ public class Operadoreslogicos {
         y = 7;
         z = 12;
         boolean r;
-        r = (x<y && y<z)? true:false;
+        //r = (x<y && y<z)? true:false;
+        //r = (x<y && y==z)? true:false;
+        //r = (x<y || y==z)? true:false;
+        r = (x<y ^ y==z)? true:false;
         System.out.println(r);
     }
     
