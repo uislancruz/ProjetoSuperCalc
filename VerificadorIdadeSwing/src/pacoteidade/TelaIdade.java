@@ -125,7 +125,7 @@ public class TelaIdade extends javax.swing.JFrame {
         int idade = 2021 - ano;
         lblIdade.setText(Integer.toString(idade));
         
-        String sit = (idade>18)?"Maior de idade":"Menor de idade";
+        String sit = ((idade>=16 && idade<18) || (idade>70))?"É OPCIONAL":"NÃO É OPCIONAL";
         lblSituacao.setText(sit);
     }//GEN-LAST:event_btnCalcActionPerformed
 
